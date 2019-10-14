@@ -9,10 +9,25 @@ h2 {
     color: aqua;
     font-size: 20px;
 }
+header {
+    background-color: cadetblue;
+}
+main {  
+    background-color: darkgray;
+}
 header p {
     font-weight: bold;
     font-style: italic;
     color: blue;
+}
+footer {    
+    background-color: antiquewhite;
+    border: black solid thin;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+figure.left {
+    float: left;
 }
 .red-heading {
     color: red;
