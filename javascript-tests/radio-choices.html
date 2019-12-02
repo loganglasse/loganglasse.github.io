@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>radio choices</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="radio-choices.js"></script>
+</head>
+<body>
+    <header>
+        <h1>radio choices</h1>
+    </header>
+<main>
+<section>
+    <fieldset> 
+        <legend>the user selection</legend> 
+            <p><b>user choice</b>: <span id="user-choice">Unknown</span></p> 
+    </fieldset>
+</section>
+
+<section id="form-section">
+    <fieldset>
+        <legend>our form</legend>
+            <form id="sort-type" action="goThere">
+                    <input type="radio" id="blue" name="sorter" value="Blue" checked>
+                        <label for="blue">blue</label>
+
+                    <input type="radio" id="green" name="sorter" value="Green">
+                        <label for="green">green</label>
+                <div>
+                    <input class="btn-padding" type="submit" value="Submit">
+                </div>
+            </form>
+        </fieldset>
+    </section>
+</main>
+
+    <footer>
+        <p>copyright &copy; 2019 by logan glasse</p>
+    </footer>
+
+</body>
+</html>
