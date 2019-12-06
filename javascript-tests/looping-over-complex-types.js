@@ -28,9 +28,19 @@ for (let i = 0; i < items.length; i++) {
 }
 
 divider();
+for (let item of items){
+    console.log('Item:', item);
+}
 
-for (let item of items) {
-    console.log("item", items);
+divider();
+
+
+function arrayToString(array) {
+    console.log(array.join(', '));
+}
+
+function stringToArray(input) {
+    console.log(input.split(','));
 }
 
 divider();
@@ -75,3 +85,4 @@ divider();
 console.log(items);
 items.push(myObject);
 console.log(items);
+}
